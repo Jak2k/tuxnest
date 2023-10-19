@@ -9,6 +9,17 @@ export default defineConfig({
       social: {
         github: "https://github.com/Jak2k/tuxnest",
       },
+      defaultLocale: "root",
+      locales: {
+        root: {
+          label: "English",
+          lang: "en",
+        },
+        de: {
+          label: "Deutsch",
+          lang: "de",
+        }
+      }
     }),
   ],
 });
