@@ -19,7 +19,18 @@ export default defineConfig({
           label: "Deutsch",
           lang: "de",
         }
-      }
+      },
+      sidebar: [
+        {
+          label: "Introduction",
+          autogenerate: {
+            directory: "1_introduction"
+          },
+          translations: {
+            "de": "Einführung"
+          }
+        }
+      ]
     }),
   ],
 });

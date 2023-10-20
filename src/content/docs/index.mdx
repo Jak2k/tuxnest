@@ -1,39 +1,43 @@
 ---
 title: Welcome to tuxnest
-description: Linux for beginners
+description: Linux for Beginners
 template: splash
 hero:
   tagline: This site is under construction
   image:
     file: ../../assets/houston.webp
   actions:
-    - text: Contribute
-      link: https://github.com/Jak2k/tuxnest
+    - text: Getting Started
+      link: ./1_introduction
       icon: right-arrow
       variant: primary
+    - text: Contribute
+      link: https://github.com/Jak2k/tuxnest
+      icon: pencil
+      variant: secondary
 ---
 
 import { Card, CardGrid } from "@astrojs/starlight/components";
 
-## What this site will cover
+## What this website will cover
 
 <CardGrid stagger>
   <Card title="Installation" icon="rocket">
-    How to install linux.
+    How to install Linux.
   </Card>
   <Card title="Basics" icon="laptop">
-    How to use linux with KDE Plasma.
+    How to use Linux with KDE Plasma.
   </Card>
-  <Card title="Configure linux" icon="setting">
+  <Card title="Configuring Linux" icon="setting">
     How to do common configuration tasks.
   </Card>
   <Card title="Commandline" icon="pencil">
-    How to do everything you want with text commands.
+    How to do anything you want with text commands.
   </Card>
   <Card title="Office" icon="pencil">
     How to edit office documents.
   </Card>
   <Card title="Gaming" icon="rocket">
-    How to play games (also from Steam).
+    How to play games (including Steam).
   </Card>
 </CardGrid>
