@@ -1,0 +1,3 @@
+- You agree to the license.
+- You should use conventional commits.
+- Small PRs are better than big PRs.
